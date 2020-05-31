@@ -8,7 +8,7 @@ const db = new Sequelize('shopdb','shopper', 'Shop_Pass1',{
     }
 })
 
-const User = db.define('users',{
+const User = db.define('users',{\
     id:{
         type: Sequelize.INTEGER,
         autoIncrement:true,
